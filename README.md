@@ -24,7 +24,7 @@ You have several choices for the output connectors to the valves since the holes
 - A simple 0.1" rectangular socket (or header). Some valves can just plug right in (like the Lee LHD series show in the photo).
 - A 0.1" screw terminal. Makes it easier to connect directly to wires.
 
-![Output connector options](img/Connectors.jpeg)
+![Output connector options](img/Connectors.jpg)
 
 ## Usage
 
