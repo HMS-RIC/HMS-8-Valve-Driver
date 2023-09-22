@@ -4,13 +4,13 @@
 
 A circuit for driving up to 8 small valves.
 
-The board takes 8 channels of digital inputs (3.3V or 5V) and can drive valves that take up to 50V at 500mA. Inputs can be connected via BNC connectors (channels 1–4) or a 0.1" header. Optional push buttons on channels 1–4 allow for manual valve activation (e.g., to flush or clean the valve lines).
+The board takes 8 channels of digital inputs (3.3V or 5V) and can drive valves at up to 50V and 500mA. Inputs can be connected via BNC connectors (channels 1–4) or a 0.1" header (all 8 channels). Optional push buttons on channels 1–4 allow for manual valve activation (e.g., to flush or clean the valve lines).
 
-![Valve driver circuit board](img/8ch_Valve_Driver_annotated.jpeg)
+<img src="img/8ch_Valve_Driver_annotated.jpeg" width="800" alt="Valve driver circuit board" />
 
 ## Fabrication and Assembly
 
-1) Order a batch of printed circuit boards (PCBs) using the provided Gerber files.
+1) Order a batch of printed circuit boards (PCBs) using the provided Gerber files. 
 
 2) Order the components listed in the Bill of Materials, and solder them into the PCB as shown in the photo above.
 
@@ -24,7 +24,7 @@ You have several choices for the output connectors to the valves since the holes
 - A simple 0.1" rectangular socket (or header). Some valves can just plug right in (like the Lee LHD series show in the photo).
 - A 0.1" screw terminal. Makes it easier to connect directly to wires.
 
-![Output connector options](img/Connectors.jpg)
+<img src="img/Connectors.jpg" width="800" alt="Output connector options" />
 
 ## Usage
 
