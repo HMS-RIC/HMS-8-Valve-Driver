@@ -6,19 +6,25 @@ A circuit for driving up to 8 small valves.
 
 The board takes 8 channels of digital inputs (3.3V or 5V) and can drive valves that take up to 50V at 500mA. Inputs can be connected via BNC connectors (channels 1–4) or a 0.1" header. Optional push buttons on channels 1–4 allow for manual valve activation (e.g., to flush or clean the valve lines).
 
+![Valve driver circuit board](img/8ch_Valve_Driver_annotated.jpeg)
+
 ## Fabrication and Assembly
 
 1) Order a batch of printed circuit boards (PCBs) using the provided Gerber files.
 
-2) Order the components listed in the Bill of Materials, and solder them into the PCB as shown in the photo below.
+2) Order the components listed in the Bill of Materials, and solder them into the PCB as shown in the photo above.
 
-2a) Make sure to place the transistor array chip (ULQ2803A) in the correct orientation (the notch on the chip should line up with the silkscreen).
+Notes:
+- Make sure to place the transistor array chip (ULQ2803A) in the correct orientation (the notch on the chip should line up with the silkscreen).
+- Input connectors (BNC or 1x10 header) are optional depending on how you plan to use the board and how many channels you'll need.
+- Similarly, manual valve control buttons are optional.
 
-2b) Input connectors (BNC or 1x10 header) are optional depending on how you plan to use the board and how many channels you'll need.
+#### Output connectors
+You have several choices for the output connectors to the valves since the holes in the board have standard 0.1" spacing. Two options are shown in the images below:
+- A simple 0.1" rectangular socket (or header). Some valves can just plug right in (like the Lee LHD series show in the photo).
+- A 0.1" screw terminal. Makes it easier to connect directly to wires.
 
-2c) Similarly, manual valve control buttons are optional.
-
-2d) Output connectors:
+![Output connector options](img/Connectors.jpeg)
 
 ## Usage
 
@@ -28,6 +34,6 @@ The board takes 8 channels of digital inputs (3.3V or 5V) and can drive valves t
 
 3) Provide digital signals to the valve input lines. These may be 3.3V or 5V signals, and might come from a device like an Arduino or a DAQ (data acquisition) board. Make sure that the valve driver and the signal generating device share a common ground connection, either through the BNC shield, or the GND pin on the input header. The circuit will energize the valves in response to a HIGH (3–5V) input signal.
 
-4) Use the optional buttons to manually energize the valves.
+4) If needed, you can also use the buttons to manually energize the valves.
 
 
