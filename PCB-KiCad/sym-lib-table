@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "HMS_8ValveDriver-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/HMS_8ValveDriver-eagle-import.kicad_sym")(options "")(descr ""))
+)

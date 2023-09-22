@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HMS_8ValveDriver")(type "KiCad")(uri "$(KIPRJMOD)/HMS_8ValveDriver.pretty")(options "")(descr ""))
+)
