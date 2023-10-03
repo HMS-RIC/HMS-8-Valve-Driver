@@ -11,7 +11,7 @@ The board takes 8 channels of digital inputs (3.3V or 5V) and can drive valves a
 ## Fabrication and Assembly
 
 1) Order a batch of printed circuit boards (PCBs) using the provided Gerber files. 
-	- You can upload the [Gerber .zip file](Gerbers/HMS-8-Channel-Valve-Driver-v1.3-Gerbers.zip to a online PCB fabricator, like [OSH Park](https://oshpark.com/) or [DK Red](https://www.digikey.com/en/pcb-builder/?p=dkred) and use the default settings for a 2-layer board.
+	- You can upload the [Gerber .zip file](Gerbers/HMS-8-Channel-Valve-Driver-v1.3-Gerbers.zip?raw=true) to a online PCB fabricator, like [OSH Park](https://oshpark.com/) or [DK Red](https://www.digikey.com/en/pcb-builder/?p=dkred) and use the default settings for a 2-layer board.
 
 2) Order the components listed in the Bill of Materials, and solder them into the PCB as shown in the photo above.
 
